@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ## Dataset.
 
-* Download the In-shop Clothes Retrieval Benchmark of [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html).We use images of resolution $256 \times 256$. Save it as `dataset/img`.
+* Download the In-shop Clothes Retrieval Benchmark of [DeepFashion](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html).We use images of resolution 256 * 256. Save it as `dataset/img`.
 * We use [OpenPose](https://github.com/Hzzone/pytorch-openpose) to estimate pose of DeepFashion. Download the [openpose results](https://drive.google.com/drive/folders/1j_27swc9cKqH6R35vvNOBi1lLUFuNjVL?usp=sharing) and save it as `dataset/pose`. 
 * We use [LIP_JPPNet](https://github.com/Engineering-Course/LIP_JPPNet) and [Densepose](https://github.com/facebookresearch/DensePose) to estimate the segmentation and densepose descriptor of DeepFashion. Download the [seg and densepose results](https://drive.google.com/drive/folders/1w801EchmCWnSxuZf0WEklwr9KOO68c1d?usp=sharing) and save it as `dataset/seg_dp`.
 * We use [Irregular Mask Dataset](https://nv-adlr.github.io/publication/partialconv-inpainting) to randomly remove part of the limbs in the body images in the dynamic generation module for mimicking image inpainting. Downloads the dataset and save it as `dataset/train_mask`.
