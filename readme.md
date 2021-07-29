@@ -4,7 +4,7 @@ Code for CT-Net: Complementary Transfering Network for Garment Transfer with Arb
 
 \[[Paper](https://openaccess.thecvf.com/content/CVPR2021/papers/Yang_CT-Net_Complementary_Transfering_Network_for_Garment_Transfer_With_Arbitrary_Geometric_CVPR_2021_paper.pdf)] \[[Supp](https://openaccess.thecvf.com/content/CVPR2021/supplemental/Yang_CT-Net_Complementary_Transfering_CVPR_2021_supplemental.pdf)]
 
-![](.\img\result.png)
+![image](https://github.com/yf1019/CT-Net/blob/master/img/result.png)
 
 ## Abstract
 
